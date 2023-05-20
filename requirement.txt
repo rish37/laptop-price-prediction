@@ -1,4 +1,4 @@
-import pandas 
-import streamlt 
-import numpy
-import plot.express
+pandas==1.5.3
+plotly==5.13.1
+streamlit==1.18.0
+tqdm==4.65.0
