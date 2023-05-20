@@ -1,10 +1,10 @@
 
 import pandas as pd
-import streamlit as st
 import plotly.express as px
+import streamlit as st
 import warning 
 import base64
-from tqdm import tqdm
+
 
 st.set_page_config(page_title='Laptop Data Analysis')
 
