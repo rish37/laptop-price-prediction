@@ -8,7 +8,7 @@ st.set_page_config(page_title='Laptop Data Analysis')
 
 @st.cache
 def load_data():
-    df = pd.read_csv('D:/big project/tesing data/laptop_data.csv')
+    df = pd.read_csv('laptop_data.csv')
     df['ram'] = df['ram'].str.replace('GB','').astype('int32')
     df['weight'] = df['weight'].str.replace('kg','').astype('float32')
     new = df['screen resolution'].str.split('x', n=1, expand=True)
